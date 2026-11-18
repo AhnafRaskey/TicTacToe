@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Ahnaf Raskey -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahnaf Raskey - Two Player Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="client.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Two Player Tic-Tac-Toe</h1>
+    <p>Ahnaf Raskey</p>
+    <form id="joinForm">
+      <input id="name" name="name" type="text" maxlength="30" placeholder="Name" aria-label="Name" required>
+      <input id="password" name="password" type="password" placeholder="Password" aria-label="Password" required>
+      <button type="submit">Join Game</button>
+    </form>
+    <p id="identity" aria-live="polite"></p>
+    <p id="status" aria-live="polite">Join to play or watch.</p>
+    <canvas id="gameCanvas" width="600" height="600" aria-label="Tic-Tac-Toe board"></canvas>
+    <button id="resetBtn" type="button">Reset Game</button>
+  </main>
+</body>
+</html>
